@@ -1,0 +1,586 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hola",
+                "Buen dia",
+                "Mucho gusto",
+                "Hay alguien ahi?"
+            ],
+            "responses": [
+                "Hola",
+                "Hola, Como estas?",
+                "Hola, En que puedo ayudarte?",
+                "Hola, gracias por usar este asistente",
+                "Soy tu asistente virtual, Que necesitas?",
+                "Soy un chatbot para orientarte en tu titulación"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Adios",
+                "Nos vemos luego",
+                "Chao",
+                "Hasta luego"
+            ],
+            "responses": [
+                "Nos vemos luego, gracias por tu visita",
+                "Ten un buen dia",
+                "Adios, regresa pronto",
+                "Adios, espero haber sido de ayuda"
+            ]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": [
+                "Gracias",
+                "Gracias por la ayuda",
+                "Muchas gracias",
+                "Gracias por ayudarme"
+            ],
+            "responses": [
+                "Feliz de ayudarte",
+                "Un placer",
+                "De nada",
+                "Cuando gustes",
+                "Estoy para cuando lo necesites"
+            ]
+        },
+        {
+            "tag": "diversion",
+            "patterns": [
+                "Cuentame un chiste",
+                "Dime algo divertido",
+                "Sabes algun chiste?",
+                "Dime un chiste "
+            ],
+            "responses": [
+                "Que le dice un jardinero a otro? Nos vemos cuando podamos",
+                "Van dos ciegos y le dice uno al otro: Ojala lloviera. Ojala yo tambien"
+            ]
+        },
+        {
+            "tag": "titulacion",
+            "patterns": [
+                "Como me puedo titular?",
+                "Que opciones de titulacion tengo?",
+                "Ayudame con mi titulacion",
+                "Como me podria titular?",
+                "Puedes ayudarme con mi Titulacion?",
+                "Aun no conozco mis opciones de Titulacion me puedes ayudar?"
+            ],
+            "responses": [
+                "Claro, tus opciones de titulación son:\n1. Tesis.\n2. Actividad de Apoyo a la Docencia.\n3. Curso y Diplomados de Actualización y Capacitación Profesional (Internos).\n4. Desarrollo de un Caso práctico\n5. Curso y Diplomados de Actualización y Capacitación Profesional (Externos).\n6. Totalidad de créditos con alto nivel académico (Con Mención Honorífica).\n7. Totalidad de créditos con alto nivel académico (Sin Mención Honorífica).\n8. Examen general de conocimientos.\n9. Estudios de posgrado.\n10. Memoria de Desempeño de Servicio social.\n11. Informe del Ejercicio Profesional.",
+                "Estas son las opciones de titulación con las que cuentas:\n1. Tesis.\n2. Actividad de Apoyo a la Docencia.\n3. Curso y Diplomados de Actualización y Capacitación Profesional (Internos).\n4. Desarrollo de un Caso práctico\n5. Curso y Diplomados de Actualización y Capacitación Profesional (Externos).\n6. Totalidad de créditos con alto nivel académico (Con Mención Honorífica).\n7. Totalidad de créditos con alto nivel académico (Sin Mención Honorífica).\n8. Examen general de conocimientos.\n9. Estudios de posgrado.\n10. Memoria de Desempeño de Servicio social.\n11. Informe del Ejercicio Profesional.",
+                "Te recomiendo las siguientes formas de titulación:\n1. Tesis.\n2. Actividad de Apoyo a la Docencia.\n3. Curso y Diplomados de Actualización y Capacitación Profesional (Internos).\n4. Desarrollo de un Caso práctico.\n5. Curso y Diplomados de Actualización y Capacitación Profesional (Externos).\n6. Totalidad de créditos con alto nivel académico (Con Mención Honorífica).\n7. Totalidad de créditos con alto nivel académico (Sin Mención Honorífica).\n8. Examen general de conocimientos.\n9. Estudios de posgrado.\n10. Memoria de Desempeño de Servicio social.\n11. Informe del Ejercicio Profesional."
+            ]
+        },
+        {
+            "tag": "Tesis",
+            "patterns": [
+                "Como funciona la Titulacion por Tesis?",
+                "Cuáles son los requisitos para la Titulación por Tesis?",
+                "Puedes explicar el proceso de la Titulación por Tesis?",
+                "Qué etapas conforman el procedimiento de Titulación a través de una Tesis?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Tesis son:\nRegistro:\nElegir un Asesor de Tesis (Profesor)\nDefinir un Tema de Tesis junto con el asesor\nPresentar en Jefatura de Carrera la siguiente documentación\n- Carta de Término de servicio\n- Carta de Liberación de Servicio Social\n- Constancia de Idioma\n- Pago por Registro de Tesis (en cajas de $35.00)\n- Resumen de la Tesis firmado por el Asesor (máximo 3 hojas)\n- Formato de Registro",
+                "Para que te puedas titular por Tesis debes seguir lo siguiente:\nRegistro:\nElegir un Asesor de Tesis (Profesor)\nDefinir un Tema de Tesis junto con el asesor\nPresentar en Jefatura de Carrera la siguiente documentación\n- Carta de Término de servicio\n- Carta de Liberación de Servicio Social\n- Constancia de Idioma\n- Pago por Registro de Tesis (en cajas de $35.00)\n- Resumen de la Tesis firmado por el Asesor (máximo 3 hojas)\n- Formato de Registro"
+            ]
+        },
+        {
+            "tag": "ApoyoDocencia",
+            "patterns": [
+                "Como funciona la Titulacion por Apoyo a la Docencia?",
+                "Podrías explicar el procedimiento que implica la Titulación por medio de Apoyo a la Docencia?",
+                "Cuáles son los requisitos para la Titulación por Apoyo a la Docencia?",
+                "Que etapas son para la Titulacion por Apoyo a la Docencia?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Actividad de Apoyo a la Docencia son:\nPre-Registro:\n- Contar con un mínimo de 88% de créditos\n- Elegir un Asesor de Titulación (Profesor)\n- Definir un material de apoyo para una asignatura junto con el asesor\n- Presentar en Jefatura de Carrera la siguiente documentación:\n  - Historial Académico\n  - Formato de Pre-Registro\nRegistro:\n- Presentar en Jefatura de Carrera la siguiente documentación:\n  - Carta de Término de servicio\n  - Carta de Liberación de Servicio Social\n  - Constancia de Idioma\n  - Pago por Registro de Titulación (en cajas de $35.00)\n  - Formato de Registro",
+                "Para que te puedas titular por Actividad de Apoyo a la Docencia debes seguir lo siguiente:\nPre-Registro:\n- Contar con un mínimo de 88% de créditos\n- Elegir un Asesor de Titulación (Profesor)\n- Definir un material de apoyo para una asignatura junto con el asesor\n- Presentar en Jefatura de Carrera la siguiente documentación:\n  - Historial Académico\n  - Formato de Pre-Registro\nRegistro:\n- Presentar en Jefatura de Carrera la siguiente documentación:\n  - Carta de Término de servicio\n  - Carta de Liberación de Servicio Social\n  - Constancia de Idioma\n  - Pago por Registro de Titulación (en cajas de $35.00)\n  - Formato de Registro"
+            ]
+        },
+        {
+            "tag": "CursoDiplomadoInterno",
+            "patterns": [
+                "Como funciona la Titulacion por Diplomados Internos?",
+                "Podrías explicar el procedimiento que implica la Titulación por medio de Diplomados Internos?",
+                "Cuáles son los requisitos para la Titulación por Diplomados Internos?",
+                "Que etapas son para la Titulacion por Diplomados Internos?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Curso y Diplomados de Actualización y Capacitación Profesional (Internos) son:\nRegistro:\n- Antes de inscribir un Diplomado para modalidad de titulación, pasa a Jefatura de Carrera con:\n  - Solicitud de Registro de Diplomado.\n  - Formato de Registro.\n  - Constancia de 100% de créditos (con 3 meses de antigüedad).\n  - Historial Académico Sellado.\n  - Original y copia de Carta de Término de servicio.\n  - Original y copia de Carta de Liberación de Servicio Social.\n  - Original y copia de Constancia de Idioma.\n  - Dos copias de CURP al 200% (tamaño carta).\nUna vez concluido el Diplomado (promedio mínimo de 8), tienes 6 meses para concluir el registro.",
+                "Para que te puedas titular por Curso y Diplomados de Actualización y Capacitación Profesional (Internos) debes seguir lo siguiente:\nRegistro:\n- Antes de inscribir un Diplomado para modalidad de titulación, pasa a Jefatura de Carrera con:\n  - Solicitud de Registro de Diplomado.\n  - Formato de Registro.\n  - Constancia de 100% de créditos (con 3 meses de antigüedad).\n  - Historial Académico Sellado.\n  - Original y copia de Carta de Término de servicio.\n  - Original y copia de Carta de Liberación de Servicio Social.\n  - Original y copia de Constancia de Idioma.\n  - Dos copias de CURP al 200% (tamaño carta).\nUna vez concluido el Diplomado (promedio mínimo de 8), tienes 6 meses para concluir el registro."
+            ]
+        },
+        {
+            "tag": "CasoPractico",
+            "patterns": [
+                "Como funciona la Titulacion por Caso práctico?",
+                "Podrías explicar el procedimiento que implica la Titulación por medio de un Caso práctico?",
+                "Cuáles son los requisitos para la Titulación por Caso práctico?",
+                "Que etapas son para la Titulacion por Caso práctico?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Desarrollo de un Caso práctico son:\nRegistro:\n- Presentar Constancia en Hoja Membretada que avale la participación en el proyecto y que puede ser documentado para opción a titulación.\n- Elegir un Asesor de Titulación (Profesor).\n- Definir un Tema de Titulación junto con el asesor.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Resumen del Trabajo de Titulación firmado por el Asesor (máximo 3 hojas).\n- Formato de Registro.",
+                "Para que te puedas titular por Desarrollo de un Caso práctico debes seguir lo siguiente:\nRegistro:\n- Presentar Constancia en Hoja Membretada que avale la participación en el proyecto y que puede ser documentado para opción a titulación.\n- Elegir un Asesor de Titulación (Profesor).\n- Definir un Tema de Titulación junto con el asesor.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Resumen del Trabajo de Titulación firmado por el Asesor (máximo 3 hojas).\n- Formato de Registro."
+            ]
+        },
+        {
+            "tag": "CursoDiplomadoExterno",
+            "patterns": [
+                "Como funciona la Titulacion por Diplomados Externos?",
+                "Podrías explicar el procedimiento que implica la Titulación por medio de Diplomados Externos?",
+                "Cuáles son los requisitos para la Titulación por Diplomados Externos?",
+                "Que etapas son para la Titulacion por Diplomados Externos?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Curso y Diplomados de Actualización y Capacitación Profesional (Externos) son:\nRegistro:\n- Antes de inscribir un Diplomado para modalidad de titulación, contar con:\n  - 100% de créditos.\n  - Servicio Social liberado.\n  - Constancia de Idioma.\nUna vez concluido el Diplomado (promedio mínimo de 8), cuentas con 6 meses para concluir el registro.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Testimonio y Evaluación (original y copia).\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Pago por Revisión de Estudios (en cajas de $5.00).\n- Formato de Registro.",
+                "Para que te puedas titular por Curso y Diplomados de Actualización y Capacitación Profesional (Externos) debes seguir lo siguiente:\nRegistro:\n- Antes de inscribir un Diplomado para modalidad de titulación, contar con:\n  - 100% de créditos.\n  - Servicio Social liberado.\n  - Constancia de Idioma.\nUna vez concluido el Diplomado (promedio mínimo de 8), cuentas con 6 meses para concluir el registro.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Testimonio y Evaluación (original y copia).\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Pago por Revisión de Estudios (en cajas de $5.00).\n- Formato de Registro."
+            ]
+        },
+        {
+            "tag": "AltoAcademicoCon",
+            "patterns": [
+                "Como funciona la Titulacion por Alto nivel académico con mencion honorifica?",
+                "Podrías explicar el procedimiento que implica la Titulación por Alto nivel académico con mencion honorifica?",
+                "Cuáles son los requisitos para la Titulación por Alto nivel académico con mencion honorifica?",
+                "Que etapas son para la Titulacion por Alto nivel académico con mencion honorifica?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Totalidad de créditos con alto nivel académico (Con Mención Honorífica) son:\nRegistro:\n- El trabajo escrito en la modalidad de Alto Nivel Académico es para el egresado interesado en obtener Mención Honorífica.\n- Elegir un Asesor de Titulación (Profesor).\n- Definir un Tema de Titulación junto con el asesor.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Resumen del Trabajo de Titulación firmado por el Asesor (máximo 3 hojas).\n- Formato de Registro.",
+                "Para que te puedas titular por Totalidad de créditos con alto nivel académico (Con Mención Honorífica) debes seguir lo siguiente:\nRegistro:\n- El trabajo escrito en la modalidad de Alto Nivel Académico es para el egresado interesado en obtener Mención Honorífica.\n- Elegir un Asesor de Titulación (Profesor).\n- Definir un Tema de Titulación junto con el asesor.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Resumen del Trabajo de Titulación firmado por el Asesor (máximo 3 hojas).\n- Formato de Registro."
+            ]
+        },
+        {
+            "tag": "AltoAcademicoSin",
+            "patterns": [
+                "Como funciona la Titulacion por Alto nivel académico sin mencion honorifica?",
+                "Podrías explicar el procedimiento que implica la Titulación por Alto nivel académico sin mencion honorifica?",
+                "Cuáles son los requisitos para la Titulación por Alto nivel académico sin mencion honorifica?",
+                "Que etapas son para la Titulacion por Alto nivel académico sin mencion honorifica?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Totalidad de créditos con alto nivel académico (Sin Mención Honorífica) son:\nRegistro:\n- Una vez que completas el 100% de Créditos, cuentas con un año para concluir el registro.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Pago por Revisión de Estudios (en cajas de $5.00).\n- Formato de Registro.",
+                "Para que te puedas titular por Totalidad de créditos con alto nivel académico (Sin Mención Honorífica) debes seguir lo siguiente:\nRegistro:\n- Una vez que completas el 100% de Créditos, cuentas con un año para concluir el registro.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Pago por Revisión de Estudios (en cajas de $5.00).\n- Formato de Registro."
+            ]
+        },
+        {
+            "tag": "Examen",
+            "patterns": [
+                "Como funciona la Titulacion por Examen general de conocimientos?",
+                "Podrías explicar el procedimiento que implica la Titulación por Examen general de conocimientos?",
+                "Cuáles son los requisitos para la Titulación por Examen general de conocimientos?",
+                "Que etapas son para la Titulacion por Examen general de conocimientos?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Examen General de Conocimientos son:\nRegistro:\n- Antes de inscribir el Examen General de Conocimientos para la modalidad de titulación, contar con:\n  - 100% de créditos.\n  - Servicio Social liberado.\n  - Constancia de Comprensión de Lectura de inglés.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Testimonio y Evaluación (original y copia).\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Pago por Revisión de Estudios (en cajas de $5.00).\n- Formato de Registro.",
+                "Para que te puedas titular por Examen General de Conocimientos debes seguir lo siguiente:\nRegistro:\n- Antes de inscribir el Examen General de Conocimientos para la modalidad de titulación, contar con:\n  - 100% de créditos.\n  - Servicio Social liberado.\n  - Constancia de Comprensión de Lectura de inglés.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Testimonio y Evaluación (original y copia).\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Pago por Revisión de Estudios (en cajas de $5.00).\n- Formato de Registro."
+            ]
+        },
+        {
+            "tag": "Posgrado",
+            "patterns": [
+                "Como funciona la Titulacion por Posgrado?",
+                "Podrías explicar el procedimiento que implica la Titulación por Posgrado?",
+                "Cuáles son los requisitos para la Titulación por Posgrado?",
+                "Que etapas son para la Titulacion por Posgrado?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Estudios de Posgrado son:\nRegistro:\n- Antes de inscribir un Posgrado de la UNAM para la modalidad de titulación, contar con:\n  - 100% de créditos.\n  - Servdicio Social liberado.\n  - Constancia de Comprensión de Lectura de inglés.\n  - El Posgrado debe ser de la UNAM y afín al área.\n  - Haber cursado el primer semestre del Posgrado como alumnos de tiempo completo y con calificación mínima de 8 en cada asignatura.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Constancia de materias de primer semestre firmada por el Tutor del Posgrado.\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Pago por Revisión de Estudios (en cajas de $5.00).\n- Formato de Registro.",
+                "Para que te puedas titular por Estudios de Posgrado debes seguir lo siguiente:\nRegistro:\n- Antes de inscribir un Posgrado de la UNAM para la modalidad de titulación, contar con:\n  - 100% de créditos.\n  - Servicio Social liberado.\n  - Constancia de Comprensión de Lectura de inglés.\n  - El Posgrado debe ser de la UNAM y afín al área.\n  - Haber cursado el primer semestre del Posgrado como alumnos de tiempo completo y con calificación mínima de 8 en cada asignatura.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Constancia de materias de primer semestre firmada por el Tutor del Posgrado.\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Pago por Revisión de Estudios (en cajas de $5.00).\n- Formato de Registro."
+            ]
+        },
+        {
+            "tag": "DeServicioSocial",
+            "patterns": [
+                "Como funciona la Titulacion por Desempeño de Servicio Social?",
+                "Podrías explicar el procedimiento que implica la Titulación por Desempeño de Servicio Social?",
+                "Cuáles son los requisitos para la Titulación por Desempeño de Servicio Social?",
+                "Que etapas son para la Titulacion por Desempeño de Servicio Social?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Desempeño de Servicio Social son:\nRegistro:\n- Antes de inscribir el Servicio Social para la modalidad de titulación, contar con:\n  - 100% de créditos.\n  - Constancia de Comprensión de Lectura de inglés.\n- Una vez concluido el Servicio Social, cuentas con 6 meses para concluir el registro.\n- Elegir un Asesor de Titulación (Profesor).\n- Definir un Tema de Titulación junto con el asesor.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Resumen del Trabajo de Titulación firmado por el Asesor (máximo 3 hojas).\n- Formato de Registro.",
+                "Para que te puedas titular por Desempeño de Servicio Social debes seguir lo siguiente:\nRegistro:\n- Antes de inscribir el Servicio Social para la modalidad de titulación, contar con:\n  - 100% de créditos.\n  - Constancia de Comprensión de Lectura de inglés.\n- Una vez concluido el Servicio Social, cuentas con 6 meses para concluir el registro.\n- Elegir un Asesor de Titulación (Profesor).\n- Definir un Tema de Titulación junto con el asesor.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Resumen del Trabajo de Titulación firmado por el Asesor (máximo 3 hojas).\n- Formato de Registro."
+            ]
+        },
+        {
+            "tag": "InformeEjercicioPro",
+            "patterns": [
+                "Como funciona la Titulacion por Informe del Ejercicio Profesional?",
+                "Podrías explicar el procedimiento que implica la Titulación por Informe del Ejercicio Profesional?",
+                "Cuáles son los requisitos para la Titulación por Informe del Ejercicio Profesional?",
+                "Que etapas son para la Titulacion por Informe del Ejercicio Profesional?"
+            ],
+            "responses": [
+                "Claro, los pasos para la Titulación por Informe de Ejercicio Profesional son:\nRegistro:\n- Presentar Constancia en Hoja Membretada que avale 3 años de experiencia.\n- Elegir un Asesor de Titulación (Profesor).\n- Definir un Tema de Titulación junto con el asesor.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Resumen del Trabajo de Titulación firmado por el Asesor (máximo 3 hojas).\n- Formato de Registro.",
+                "Para que te puedas titular por Informe de Ejercicio Profesional debes seguir lo siguiente:\nRegistro:\n- Presentar Constancia en Hoja Membretada que avale 3 años de experiencia.\n- Elegir un Asesor de Titulación (Profesor).\n- Definir un Tema de Titulación junto con el asesor.\nPresentar en Jefatura de Carrera la siguiente documentación:\n- Carta de Término de servicio.\n- Carta de Liberación de Servicio Social.\n- Constancia de Idioma.\n- Pago por Registro de Titulación (en cajas de $35.00).\n- Resumen del Trabajo de Titulación firmado por el Asesor (máximo 3 hojas).\n- Formato de Registro."
+            ]
+        },
+        {
+            "tag": "ExplicacionTesis",
+            "patterns": [
+                "Puedes explicarme en que consiste una Tesis?",
+                "Que se hace en una Tesis?",
+                "Como funciona la Tesis?",
+                "Que es una Tesis?"
+            ],
+            "responses": [
+                "La Titulación por Tesis implica llevar a cabo una investigación pura, basica, teorica, practica o aplicada emplando una rigurosa metodologia cientifica sobre un tema específico y presentar los hallazgos."
+            ]
+        },
+        {
+            "tag": "ExplicacionApoyoDocencia",
+            "patterns": [
+                "Puedes explicarme en que consiste el Apoyo a la Docencia?",
+                "Que se hace en el Apoyo a la Docencia?",
+                "Como funciona el Apoyo a la Docencia?",
+                "Que es el Apoyo a la Docencia?"
+            ],
+            "responses": [
+                "Consiste en completar tareas de apoyo a la enseñanza, como asistencia en la preparación de clases, elaborar material didactico y/o critica escrita al progrma de alguna o varias asignaturas academicas del plan de estudios."
+            ]
+        },
+        {
+            "tag": "ExplicacionDiplomadosInternos",
+            "patterns": [
+                "Puedes explicarme en que consiste el Diplomado Interno?",
+                "Que se hace en el Diplomado Interno?",
+                "Como funciona el Diplomado Interno?",
+                "Que es el Diplomado Interno?"
+            ],
+            "responses": [
+                "Implica tomar cursos o diplomados internos dentro de la institución educativa para adquirir conocimientos y habilidades adicionales."
+            ]
+        },
+        {
+            "tag": "ExplicacionDiplomadosExternos",
+            "patterns": [
+                "Puedes explicarme en que consiste el Diplomado Externo?",
+                "Que se hace en el Diplomado Externo?",
+                "Como funciona el Diplomado Externo?",
+                "Que es el Diplomado Externo?"
+            ],
+            "responses": [
+                "Similar al método interno, pero en este caso los cursos y diplomados se toman fuera de la institución educativa."
+            ]
+        },
+        {
+            "tag": "ExplicacionCasoPractico",
+            "patterns": [
+                "Puedes explicarme en que consiste un Caso Practico?",
+                "Que se hace en un Caso Practico?",
+                "Como funciona un Caso Practico?",
+                "Que es un Caso Practico?"
+            ],
+            "responses": [
+                "Se resuelve un caso práctico de un problema real relacionado con el campo de estudio y presentan sus soluciones o análisis."
+            ]
+        },
+        {
+            "tag": "ExplicacionAltoNAcademicoCon",
+            "patterns": [
+                "Puedes explicarme en que consiste Titularse con un Alto Nivel Academico Con Mención Honorífica?",
+                "Que se hace para Titularse con un Alto Nivel Academico Con Mención Honorífica?",
+                "Como funciona la Titulacion con un Alto Nivel Academico Con Mención Honorífica?",
+                "Que es la Titulacion con un  Alto Nivel Academico Con Mención Honorífica?"
+            ],
+            "responses": [
+                "Los estudiantes que  acreditaron todas sus asignaturas de forma sobresaliente, con promedio mínimo de 9.5, en la primera inscripción y sin ningún recursamiento. Y con un trabajo escrito si esta interesado en la mencion honorifica."
+            ]
+        },
+        {
+            "tag": "ExplicacionAltoNAcademicoSin",
+            "patterns": [
+                "Puedes explicarme en que consiste Titularse con un Alto Nivel Academico Sin Mención Honorífica?",
+                "Que se hace para Titularse con un Alto Nivel Academico Sin Mención Honorífica?",
+                "Como funciona la Titulacion con un Alto Nivel Academico Sin Mención Honorífica?",
+                "Que es la Titulacion con un  Alto Nivel Academico Sin Mención Honorífica?"
+            ],
+            "responses": [
+                "Los estudiantes que  acreditaron todas sus asignaturas de forma sobresaliente, con promedio mínimo de 9.5, en la primera inscripción y sin ningún recursamiento."
+            ]
+        },
+        {
+            "tag": "ExplicacionExamen",
+            "patterns": [
+                "Puedes explicarme en que consiste el Examen General de Conocimientos?",
+                "Que se hace en el Examen General de Conocimientos?",
+                "Como funciona el Examen General de Conocimientos?",
+                "Que es el Examen General de Conocimientos?"
+            ],
+            "responses": [
+                "Los estudiantes se someten a un examen que evalúa su conocimiento en el area de estudio. Si aprueban el examen, obtienen el título."
+            ]
+        },
+        {
+            "tag": "ExplicacionPosgrado",
+            "patterns": [
+                "Puedes explicarme en que consisten los Estudios de Posgrado?",
+                "Que se hace en un Estudio de Posgrado?",
+                "Como funcionan los Estudios de Posgrado?",
+                "Que es el Estudio de Posgrado?"
+            ],
+            "responses": [
+                "Debes haber cubierto al menos un semestre en alguno de los programas de Posgrado de la UNAM autorizados, con una calificación mínima de ocho en cada una de sus actividades."
+            ]
+        },
+        {
+            "tag": "ExplicacionServicioSocial",
+            "patterns": [
+                "Puedes explicarme en que consiste el Desempeño de Servicio Social?",
+                "Que se hace para tener el Desempeño de Servicio Social?",
+                "Como funciona el Desempeño de Servicio Social?",
+                "Que es el Desempeño de Servicio Social?"
+            ],
+            "responses": [
+                "Es para aquellos egresados que hayan realizado su Servicio Social, después de haber acreditado todas las asignaturas de la licenciatura y si implica  sobresalientemente la practica y aplicacion del criterio profesional."
+            ]
+        },
+        {
+            "tag": "ExplicacionEjercicioPro",
+            "patterns": [
+                "Puedes explicarme en que consiste el Informe del Ejercicio Profesional?",
+                "Que se hace en el Informe del Ejercicio Profesional?",
+                "Como funciona el Informe del Ejercicio Profesional?",
+                "Que es el Informe del Ejercicio Profesional?"
+            ],
+            "responses": [
+                "Está dirigida a los egresados que hayan ejercido la profesión, al menos durante tres años consecutivos, aplicando los conocimientos de la licenciatura y que posean criterio profesional."
+            ]
+        },
+        {
+            "tag": "TitulacionRequisitos",
+            "patterns": [
+                "Cuáles son los requisitos para iniciar el proceso de titulación?",
+                "Como se si cumplo los requistos para la titulacion?",
+                "Que requsitos necesito para titularme"
+            ],
+            "responses": [
+                "Dependera de que forma de titulación escogas, pero en aspectos generales debes cumplir con: \n  - 100% de créditos. \n  - Carta de Término de servicio. \n Constancia de Idioma. \n Si tienes en mente alguna forma de titulacion preguntame por ella, por ejemplo: Como funciona la Titulacion por Tesis?",
+                "Claro en terminos simples necesitas contar con: \n  - 100% de créditos. \n  - Carta de Término de servicio. \n Constancia de Idioma. \n Si aun no sabes cuales son tus opciones de titulacion preguntame por ellas, por ejemplo: Que opciones de titulacion tengo?"
+            ]
+        },
+        {
+            "tag": "Plataforma",
+            "patterns": [
+                "Hay alguna plataforma en línea donde pueda encontrar información adicional o realizar seguimiento de mi proceso de titulación?",
+                "Hay algun sitio web para realizar el proceso de Titulacion?",
+                "Donde puedo revisar mi proceso de Titulacion?"
+            ],
+            "responses": [
+                "Si existe una plataforma para que revises tu proceso de Titulacion: https://seguimientotitulacion.unam.mx/"
+            ]
+        },
+        {
+            "tag": "Recomendacion",
+            "patterns": [
+                "Me podrias recomendar una forma de Titulacion?",
+                "Que Titulacion me recomiendas?",
+                "Cual crees que es mi mejor opcion para Titularme?",
+                "Que me recomiendas para Titularme?",
+                "Recomendame una opcion para titularme"
+            ],
+            "responses": [
+                "Claro para apoyarte mejor necesito que me brindes la siguiente infromacion: \n Promedio \n Tines tiempo? \n Trabajas? \n Ejemplo para que me des tus respuestas: '8.5, Si cuento con tiempo, No trabajo' o '7.0, No tengo tiempo, Si trabajo'"
+            ]
+        },
+        {
+            "tag": "RecomendacionUno",
+            "patterns": [
+                "9.5, No tengo tiempo, No trabajo",
+                "9.6, No tengo tiempo, No trabajo",
+                "9.7, No tengo tiempo, No trabajo",
+                "9.8, No tengo tiempo, No trabajo",
+                "9.9, No tengo tiempo, No trabajo",
+                "10, No tengo tiempo, No trabajo",
+                "9.6, No tengo tiempo, Si trabajo",
+                "9.5, No tengo tiempo, Si trabajo",
+                "9.7, No tengo tiempo, Si trabajo",
+                "9.8, No tengo tiempo, Si trabajo",
+                "9.9, No tengo tiempo, Si trabajo",
+                "10, No tengo tiempo, Si trabajo"
+            ],
+            "responses": [
+                "Te recomiendo Titularte de las siguientes maneras: \n 1. Totalidad de créditos con alto nivel académico (Sin Mencion Honorifica). \n Estas son mis recomendaciones te sugiero revisar todas tus opciones para ver la que mejor se acomode a ti"
+            ]
+        },
+        {
+            "tag": "RecomendacionDos",
+            "patterns": [
+                "9.5, Si cuento con tiempo, No trabajo",
+                "9.6, Si cuento con tiempo, No trabajo",
+                "9.7, Si cuento con tiempo, No trabajo",
+                "9.8, Si cuento con tiempo, No trabajo",
+                "9.9, Si cuento con tiempo, No trabajo",
+                "10, Si cuento con tiempo, No trabajo",
+                "9.5, Si cuento con tiempo, Si trabajo",
+                "9.6, Si cuento con tiempo, Si trabajo",
+                "9.7, Si cuento con tiempo, Si trabajo",
+                "9.8, Si cuento con tiempo, Si trabajo",
+                "9.9, Si cuento con tiempo, Si trabajo",
+                "10, Si cuento con tiempo, Si trabajo"
+            ],
+            "responses": [
+                "Te recomiendo Titularte de las siguientes maneras: \n 1. Totalidad de créditos con alto nivel académico (Sin Mencion Honorifica). \n 2. Totalidad de créditos con alto nivel académico (Con Mencion Honorifica).\n Estas son mis recomendaciones te sugiero revisar todas tus opciones para ver la que mejor se acomode a ti"
+            ]
+        },
+        {
+            "tag": "RecomendacionTres",
+            "patterns": [
+                "7.0, No tengo tiempo, No trabajo",
+                "7.1, No tengo tiempo, No trabajo",
+                "7.2, No tengo tiempo, No trabajo",
+                "7.3, No tengo tiempo, No trabajo",
+                "7.4, No tengo tiempo, No trabajo",
+                "7.5, No tengo tiempo, No trabajo",
+                "7.6, No tengo tiempo, No trabajo",
+                "7.7, No tengo tiempo, No trabajo",
+                "7.9, No tengo tiempo, No trabajo",
+                "8.0, No tengo tiempo, No trabajo",
+                "8.1, No tengo tiempo, No trabajo",
+                "8.2, No tengo tiempo, No trabajo",
+                "8.3, No tengo tiempo, No trabajo",
+                "8.4, No tengo tiempo, No trabajo",
+                "8.5, No tengo tiempo, No trabajo",
+                "8.6, No tengo tiempo, No trabajo",
+                "8.7, No tengo tiempo, No trabajo",
+                "8.8, No tengo tiempo, No trabajo",
+                "8.9, No tengo tiempo, No trabajo",
+                "9.0, No tengo tiempo, No trabajo",
+                "9.1, No tengo tiempo, No trabajo",
+                "9.2, No tengo tiempo, No trabajo",
+                "9.3, No tengo tiempo, No trabajo",
+                "9.4, No tengo tiempo, No trabajo"
+            ],
+            "responses": [
+                "Te recomiendo Titularte de las siguientes maneras: \n 1. Examen general de conocimientos.\n Estas son mis recomendaciones te sugiero revisar todas tus opciones para ver la que mejor se acomode a ti"
+            ]
+        },
+        {
+            "tag": "RecomendacionCuatro",
+            "patterns": [
+                "7.0, No tengo tiempo, Si trabajo",
+                "7.1, No tengo tiempo, Si trabajo",
+                "7.2, No tengo tiempo, Si trabajo",
+                "7.3, No tengo tiempo, Si trabajo",
+                "7.4, No tengo tiempo, Si trabajo",
+                "7.5, No tengo tiempo, Si trabajo",
+                "7.6, No tengo tiempo, Si trabajo",
+                "7.7, No tengo tiempo, Si trabajo",
+                "7.8, No tengo tiempo, Si trabajo",
+                "7.9, No tengo tiempo, Si trabajo",
+                "8.0, No tengo tiempo, Si trabajo",
+                "8.1, No tengo tiempo, Si trabajo",
+                "8.2, No tengo tiempo, Si trabajo",
+                "8.3, No tengo tiempo, Si trabajo",
+                "8.4, No tengo tiempo, Si trabajo",
+                "8.5, No tengo tiempo, Si trabajo",
+                "8.6, No tengo tiempo, Si trabajo",
+                "8.7, No tengo tiempo, Si trabajo",
+                "8.8, No tengo tiempo, Si trabajo",
+                "8.9, No tengo tiempo, Si trabajo",
+                "9.0, No tengo tiempo, Si trabajo",
+                "9.1, No tengo tiempo, Si trabajo",
+                "9.2, No tengo tiempo, Si trabajo",
+                "9.3, No tengo tiempo, Si trabajo",
+                "9.4, No tengo tiempo, Si trabajo"
+            ],
+            "responses": [
+                "Te recomiendo Titularte de las siguientes maneras: \n 1. Informe del Ejercicio Profesional.\n Estas son mis recomendaciones te sugiero revisar todas tus opciones para ver la que mejor se acomode a ti"
+            ]
+        },
+        {
+            "tag": "RecomendacionCinco",
+            "patterns": [
+                "7.0, Si cuento con tiempo, Si trabajo",
+                "7.1, Si cuento con tiempo, Si trabajo",
+                "7.2, Si cuento con tiempo, Si trabajo",
+                "7.3, Si cuento con tiempo, Si trabajo",
+                "7.4, Si cuento con tiempo, Si trabajo",
+                "7.5, Si cuento con tiempo, Si trabajo",
+                "7.6, Si cuento con tiempo, Si trabajo",
+                "7.7, Si cuento con tiempo, Si trabajo",
+                "7.8, Si cuento con tiempo, Si trabajo",
+                "7.9, Si cuento con tiempo, Si trabajo",
+                "8.0, Si cuento con tiempo, Si trabajo",
+                "8.1, Si cuento con tiempo, Si trabajo",
+                "8.2, Si cuento con tiempo, Si trabajo",
+                "8.3, Si cuento con tiempo, Si trabajo",
+                "8.4, Si cuento con tiempo, Si trabajo",
+                "8.5, Si cuento con tiempo, Si trabajo",
+                "8.6, Si cuento con tiempo, Si trabajo",
+                "8.7, Si cuento con tiempo, Si trabajo",
+                "8.8, Si cuento con tiempo, Si trabajo",
+                "8.9, Si cuento con tiempo, Si trabajo",
+                "9.0, Si cuento con tiempo, Si trabajo",
+                "9.1, Si cuento con tiempo, Si trabajo",
+                "9.2, Si cuento con tiempo, Si trabajo",
+                "9.3, Si cuento con tiempo, Si trabajo",
+                "9.4, Si cuento con tiempo, Si trabajo",
+                "7.0, Si cuento con tiempo, No trabajo",
+                "7.1, Si cuento con tiempo, No trabajo",
+                "7.2, Si cuento con tiempo, No trabajo",
+                "7.3, Si cuento con tiempo, No trabajo",
+                "7.4, Si cuento con tiempo, No trabajo",
+                "7.5, Si cuento con tiempo, No trabajo",
+                "7.6, Si cuento con tiempo, No trabajo",
+                "7.7, Si cuento con tiempo, No trabajo",
+                "7.8, Si cuento con tiempo, No trabajo",
+                "7.9, Si cuento con tiempo, No trabajo",
+                "8.0, Si cuento con tiempo, No trabajo",
+                "8.1, Si cuento con tiempo, No trabajo",
+                "8.2, Si cuento con tiempo, No trabajo",
+                "8.3, Si cuento con tiempo, No trabajo",
+                "8.4, Si cuento con tiempo, No trabajo",
+                "8.5, Si cuento con tiempo, No trabajo",
+                "8.6, Si cuento con tiempo, No trabajo",
+                "8.7, Si cuento con tiempo, No trabajo",
+                "8.8, Si cuento con tiempo, No trabajo",
+                "8.9, Si cuento con tiempo, No trabajo",
+                "9.0, Si cuento con tiempo, No trabajo",
+                "9.1, Si cuento con tiempo, No trabajo",
+                "9.2, Si cuento con tiempo, No trabajo",
+                "9.3, Si cuento con tiempo, No trabajo",
+                "9.4, Si cuento con tiempo, No trabajo"
+            ],
+            "responses": [
+                "Te recomiendo Titularte de las siguientes maneras: \n 1. Tesis.\n 2. Actividad de Apoyo a la Docencia.\n 3. Desarrollo de un Caso práctico. \n 4. Examen general de conocimientos.\n 5. Estudios de posgrado.\n 6. Memoria de Desempeño de Servicio social. \n 7. Curso y Diplomados de Actualizacion y Capacitacion Profesional (Internos). \n 8. Curso y Diplomados de Actualizacion y Capacitacion Profesional (Externos).\n Estas son mis recomendaciones te sugiero revisar todas tus opciones para ver la que mejor se acomode a ti"
+            ]
+        },
+        {
+            "tag": "ServicioSocial",
+            "patterns": [
+                "Que es el Servicio Social?",
+                "Me puedes explicar lo que es un Servicio Social?",
+                "A que se refiere con Servicio Social"
+            ],
+            "responses": [
+                "Es una actividad que permite al estudiante poner en práctica los conocimientos que adquirió en su vida académica, en beneficio de la sociedad."
+            ]
+        },
+        {
+            "tag": "LiberarServicioSocial",
+            "patterns": [
+                "Donde puedo liberar mi Servicio Social?",
+                "En donde puedo hacer mi Servicio Social?"
+            ],
+            "responses": [
+                "En cualquier dependencia gubernamental, asociación civil sin fines de lucro (A.C.), Instituciones de Asistencia  Privada (IAP), instituciones educativa públicas, siempre y cuando tengan programa y clave vigente. \n Te recomiendo visitar esta plataforma para buscar alguno  https://www.siass.unam.mx"
+            ]
+        },
+        {
+            "tag": "Idioma",
+            "patterns": [
+                "Como puedo liberar el idioma?",
+                "Que opciones tengo para liberar el idioma?"
+            ],
+            "responses": [
+                "Para poder liberar tu idioma puedes: \n Tomar cursos que validen tu conocimiento dentro o fuera de la institucion. \n Tomar el Examen Global que pndra aprueba tus conocimientos y asi validarlos."
+            ]
+        }
+    ]
+}
